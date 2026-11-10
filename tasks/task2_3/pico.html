@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Task 2.3</title>
+
+    <!-- Pico CSS from CDN -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+    <!-- Responsive mobile layout -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <!-- Light and dark mode support -->
+    <meta name="color-scheme" content="light dark">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="container">
+    <ul>
+        <li><strong>My Website</strong></li>
+    </ul>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Main content -->
+<main class="container">
+
+    <!-- Main heading -->
+    <h1 id="home">Welcome to My Website</h1>
+
+    <p>
+        Welcome to my website. This page demonstrates
+        how Pico CSS can be used to create a responsive
+        and attractive webpage.
+    </p>
+
+    <p>
+        Pico CSS is a lightweight CSS framework that
+        automatically styles HTML elements without
+        requiring large amounts of custom CSS.
+    </p>
+
+    <!-- About section -->
+    <h2 id="about">About Pico CSS</h2>
+
+    <p>
+        Pico CSS makes it easier to create websites
+        that work on desktop computers, tablets and
+        mobile phones.
+    </p>
+
+    <p>
+        You can learn more about web development by
+        visiting the
+        <a href="https://developer.mozilla.org/en-US/docs/Web">
+            MDN Web Documentation
+        </a>.
+    </p>
+
+    <!-- Two-column grid -->
+    <h2 id="technologies">Web Technologies</h2>
+
+    <div class="grid">
+
+        <article>
+            <h3>HTML</h3>
+            <p>
+                HTML is used to structure the content
+                of a webpage.
+            </p>
+        </article>
+
+        <article>
+            <h3>CSS</h3>
+            <p>
+                CSS is used to control the appearance
+                and layout of a webpage.
+            </p>
+        </article>
+
+    </div>
+
+    <!-- Table -->
+    <h2>Technology Comparison</h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Technology</th>
+            <th>Purpose</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>HTML</td>
+            <td>Website structure</td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+            <td>Website styling</td>
+        </tr>
+
+        <tr>
+            <td>JavaScript</td>
+            <td>Website interactivity</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Contact form -->
+    <h2 id="contact">Contact Form</h2>
+
+    <form>
+
+        <label for="name">Your Name</label>
+        <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+        >
+
+        <label for="email">Your Email</label>
+        <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+        >
+
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject">
+            <option value="general">General Enquiry</option>
+            <option value="support">Technical Support</option>
+            <option value="feedback">Feedback</option>
+        </select>
+
+        <label for="message">Your Message</label>
+        <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message here"
+                rows="5"
+        ></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <!-- Special component: Accordion -->
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+        <summary>What is HTML?</summary>
+        <p>
+            HTML is a markup language used to structure
+            the content of websites.
+        </p>
+    </details>
+
+    <details>
+        <summary>What is CSS?</summary>
+        <p>
+            CSS is a stylesheet language used to style
+            HTML documents.
+        </p>
+    </details>
+
+    <details>
+        <summary>What is Pico CSS?</summary>
+        <p>
+            Pico CSS is a lightweight framework that
+            provides ready-made styles for HTML elements.
+        </p>
+    </details>
+
+    <!-- Buttons -->
+    <h2>Button Examples</h2>
+
+    <button>Primary Button</button>
+
+    <button class="secondary">Secondary Button</button>
+
+    <button class="outline">Outline Button</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 My Website.
+            Created using HTML and Pico CSS.
+        </p>
+    </footer>
+
+</main>
+
+</body>
+</html>
